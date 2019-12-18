@@ -1,0 +1,12 @@
+// Un header de 75 de alto en móvil, 100 en tablet (768px) y 110 en desktop (1280px)
+header {
+    @media (max-width: 768px) {
+        height: 75px;
+    }
+    @media (min-width: 768px) {
+        height: 100px;
+    }
+    @media (min-width: 1280px) {
+        height: 110px;
+    }
+}

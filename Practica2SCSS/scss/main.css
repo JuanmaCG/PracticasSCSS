@@ -1,0 +1,21 @@
+.principal {
+  height: 50%; }
+
+.secundaria .titulo {
+  border: 5px;
+  height: 45px; }
+.secundaria .boton {
+  border: 5px;
+  height: 45px; }
+
+@media (max-width: 768px) {
+  header {
+    height: 75px; } }
+@media (min-width: 768px) {
+  header {
+    height: 100px; } }
+@media (min-width: 1280px) {
+  header {
+    height: 110px; } }
+
+/*# sourceMappingURL=main.css.map */

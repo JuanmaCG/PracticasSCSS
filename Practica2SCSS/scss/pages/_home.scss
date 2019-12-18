@@ -1,0 +1,17 @@
+$heigh-principal: 50%;
+$border-secundaria: 5px;
+$heigh-secundaria: 45px;
+.principal {
+    height: $heigh-principal;
+}
+
+.secundaria {
+    .titulo {
+        border: $border-secundaria;
+        height: $heigh-secundaria;
+    }
+    .boton {
+        border: $border-secundaria;
+        height: $heigh-secundaria;
+    }
+}
